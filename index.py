@@ -85,7 +85,7 @@ Button(
 
 
 ####aba tabela
-colunas = ("Nome", "CPF","nascimento", "Telefone", "email","convenio", "contato")
+colunas = ("Nome", "cpf","nascimento", "Telefone", "email","convenio", "contato")
 tabela=ttk.Treeview(
     aba2,
     columns=colunas,
