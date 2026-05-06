@@ -41,7 +41,7 @@ def cadastrar():
         entry_convenio.delete(0,END)  
         entry_contato.delete(0,END)  
 
-        messagebox.showinfo("sucesso","Cliente cadastrado com sucesso")  
+        messagebox.showinfo("Sucesso","Cliente cadastrado com sucesso")  
 
 
 ###aba Cadastro
@@ -50,7 +50,7 @@ entry_nome = Entry(aba1, width=40)
 entry_nome.pack()
 
 Label(aba1, text="CPF").pack(pady=2)
-entry_cpf = Entry(aba1, width=13)
+entry_cpf = Entry(aba1, width=40)
 entry_cpf.pack()
 
 Label(aba1, text="Data de Nascimento").pack(pady=1)
@@ -58,19 +58,19 @@ entry_nascimento = Entry(aba1, width=40)
 entry_nascimento.pack()
 
 Label(aba1, text="Telefone").pack(pady=1)
-entry_telefone = Entry(aba1, width=11)
+entry_telefone = Entry(aba1, width=40)
 entry_telefone.pack()
 
 Label(aba1, text="E-mail").pack(pady=1)
-entry_email = Entry(aba1, width=11)
+entry_email = Entry(aba1, width=40)
 entry_email.pack()
 
 Label(aba1, text="Convenio/SUS").pack(pady=1)
-entry_convenio = Entry(aba1, width=11)
+entry_convenio = Entry(aba1, width=40)
 entry_convenio.pack()
 
 Label(aba1, text="Contato de Emergencia").pack(pady=1)
-entry_contato = Entry(aba1, width=11)
+entry_contato = Entry(aba1, width=40)
 entry_contato.pack()
 
 Button(
